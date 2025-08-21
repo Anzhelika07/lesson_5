@@ -133,10 +133,10 @@ def test_error_messages_for_empty_required_fields(driver):
 
     # 10. Проверить ожидаемые тексты ошибок
     expected_errors = [
-        "ФИО: field is required.",
-        "E-mail field is required.",
-        "Количество field is required.",
-        "Дата доставки field is required."
+        "Необходимо заполнить поле ФИО:.",
+        "Необходимо заполнить поле E-mail.",
+        "Необходимо заполнить поле Количество.",
+        "Необходимо заполнить поле Дата доставки."
     ]
 
     # Проверить, что все ожидаемые ошибки присутствуют
